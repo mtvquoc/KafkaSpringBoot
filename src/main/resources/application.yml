@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+  info:
+    env:
+      enabled: true
+
+
+info:
+  app:
+    name: My App
+    description: This is my app
+    version: 1.0.0

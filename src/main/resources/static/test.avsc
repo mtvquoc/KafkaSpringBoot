@@ -1,0 +1,21 @@
+{
+  "name": "Class",
+  "type": "record",
+  "fields": [
+    {
+      "name": "subject",
+      "type": "string"
+    },
+    {
+      "name": "lessonNumber",
+      "type": "int"
+    },
+    {
+      "name": "students",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
