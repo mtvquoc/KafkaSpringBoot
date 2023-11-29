@@ -1,5 +1,10 @@
 {
   "subject": "math",
   "lessonNumber": 3,
-  "students": ["John","Rose", "Danny"]
+  "students": [
+    {
+      "name": "A",
+      "age": 1
+    }
+  ]
 }

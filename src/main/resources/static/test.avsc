@@ -14,7 +14,20 @@
       "name": "students",
       "type": {
         "type": "array",
-        "items": "string"
+        "items": {
+          "name": "Student",
+          "type": "record",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "age",
+              "type": "int"
+            }
+          ]
+        }
       }
     }
   ]
